@@ -1,4 +1,7 @@
-﻿![](https://javascript30.com/images/JS3-social-share.png)
+﻿This is a fork of the JavaScript30 course
+These are the starter files needed for me to complete the course
+
+![](https://javascript30.com/images/JS3-social-share.png)
 
 # JavaScript30
 
