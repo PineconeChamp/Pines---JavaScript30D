@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style copy.css">
+    <link rel="icon" href="https://fav.farm/🔥" />
+    <script src="DrumPlayer.js"></script>
+</head>
+<body>
+    <div class="music-box-container">
+            <div class="music-box">
+                <div class="playbar">
+                    <input type="range" id="progress-bar" min="0" max="108" value="0">
+                </div>
+                <div data-key="65">
+                    <kbd style="font-family: 'Courier New', Courier, monospace; font-weight: 600; color: aliceblue;">Press space to play track</kbd>
+                </div>
+                <div class="divider"></div>
+                <div class="key-sections">
+                    <button class="key" data-key="65" id="clap-1" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="65" id="clap-2" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="65" id="clap-3" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="65" id="clap-4" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="65" id="clap-5" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="65" id="clap-6" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="65" id="clap-7" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="65" id="clap-8" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="65" id="clap-9" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="65" id="clap-10" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="65" id="clap-11" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="65" id="clap-12" onclick="buttonClicked(id)"></button>
+                </div>
+                <div class="divider"></div>
+                <div class="key-sections">
+                    <button class="key" data-key="83" id="hihat-1" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="83" id="hihat-2" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="83" id="hihat-3" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="83" id="hihat-4" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="83" id="hihat-5" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="83" id="hihat-6" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="83" id="hihat-7" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="83" id="hihat-8" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="83" id="hihat-9" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="83" id="hihat-10" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="83" id="hihat-11" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="83" id="hihat-12" onclick="buttonClicked(id)"></button>
+                </div>
+                <div class="divider"></div>
+                <div class="key-sections">
+                    <button class="key" data-key="68" id="kick-1" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="68" id="kick-2" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="68" id="kick-3" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="68" id="kick-4" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="68" id="kick-5" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="68" id="kick-6" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="68" id="kick-7" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="68" id="kick-8" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="68" id="kick-9" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="68" id="kick-10" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="68" id="kick-11" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="68" id="kick-12" onclick="buttonClicked(id)"></button>
+                </div>
+                <div class="divider"></div>
+                <div class="key-sections">
+                    <button class="key" data-key="70" id="openhat-1" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="70" id="openhat-2" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="70" id="openhat-3" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="70" id="openhat-4" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="70" id="openhat-5" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="70" id="openhat-6" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="70" id="openhat-7" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="70" id="openhat-8" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="70" id="openhat-9" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="70" id="openhat-10" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="70" id="openhat-11" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="70" id="openhat-12" onclick="buttonClicked(id)"></button>
+                </div>
+                <div class="divider"></div>
+                <div class="key-sections">
+                    <button class="key" data-key="74" id="snare-1" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="74" id="snare-2" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="74" id="snare-3" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="74" id="snare-4" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="74" id="snare-5" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="74" id="snare-6" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="74" id="snare-7" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="74" id="snare-8" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="74" id="snare-9" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="74" id="snare-10" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="74" id="snare-11" onclick="buttonClicked(id)"></button>
+                    <button class="key" data-key="74" id="snare-12" onclick="buttonClicked(id)"></button>
+                </div>
+                <div class="divider"></div>
+            </div>
+        </div>
+    </div>
+
+  <audio data-key="65" src="sounds/clap.wav"></audio>
+  <audio data-key="83" src="sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/openhat.wav"></audio>
+  <audio data-key="71" src="sounds/boom.wav"></audio>
+  <audio data-key="72" src="sounds/ride.wav"></audio>
+  <audio data-key="74" src="sounds/snare.wav"></audio>
+  <audio data-key="75" src="sounds/tom.wav"></audio>
+  <audio data-key="76" src="sounds/tink.wav"></audio>
+
+
+</body>
+</html>

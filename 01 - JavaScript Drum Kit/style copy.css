@@ -1,0 +1,101 @@
+html {
+  font-size: 10px;
+  background: url('./background.jpg') bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-box-container{
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+.music-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  max-width: 80vw;
+  min-width: 80vw;
+  max-height: 80vh;
+  min-height: 80vh;
+  background-color: rgba(22, 24, 49, 0.712);
+  flex-direction: column;
+}
+
+.divider {
+  width: 70%;
+  height: 2px;
+  background-color: #ffc80054;
+  margin: 1rem 0;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  background-color: rgba(221, 223, 255, 0.671);
+}
+
+.key {
+  border: .4rem solid rgb(7, 10, 27);
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 4vw;
+  height: 8vh;
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
+  padding: 10px;
+}
+
+.playbar{
+  width: 61.5vw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: #ffc600; /* Modern browsers */
+  height: 4px;
+  border-radius: 2px;
+  background: transparent;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+  background-color: #ffc8009f;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
